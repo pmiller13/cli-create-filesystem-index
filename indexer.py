@@ -86,7 +86,7 @@ def run_indexer(
     target_directory: str,
     max_file_size_mb: int = 1,
     n_grams_min: int = 4,
-    n_grams_max: int = 10,
+    n_grams_max: int = 4,
     supported_extensions: set[str] = {".txt", ".py", ".md", ".json", ".yml", ".yaml"},
 ):
     """
